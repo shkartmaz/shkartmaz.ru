@@ -14,8 +14,14 @@
  * limitations under the License.
  */
 'use strict';
+ function updateFloorPlan(){
+    window.alert("fp!")
+  }
 
 (function() {
+	
+ 
+  
   var Marzipano = window.Marzipano;
   var bowser = window.bowser;
   var screenfull = window.screenfull;
