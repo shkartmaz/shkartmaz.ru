@@ -29,6 +29,7 @@
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+  var floorPlanElement = document.querySelector('#floorPlan'); // 
 
   // Detect desktop or mobile mode.
   if (window.matchMedia) {
