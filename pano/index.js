@@ -161,6 +161,12 @@
       if (document.body.classList.contains('mobile')) {
         hideSceneList();
       }
+	if (scene.data.name === "room 2 data js") {
+		var el = document.querySelector('#r2');
+		el.addEventListener('click', function() {
+			switchScene(scene);
+		}
+	}
     });
   });
 
@@ -175,8 +181,8 @@
     startAutorotate();
     updateSceneName(scene);
     updateSceneList(scene);
-	updateFloorPlan();
-	//window.alert("Scene updated")
+	//updateFloorPlan();
+	window.alert("Scene updated")
   }
 
   function updateSceneName(scene) {
