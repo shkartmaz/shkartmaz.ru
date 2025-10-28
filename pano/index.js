@@ -156,20 +156,14 @@
   scenes.forEach(function(scene) {
     var el = document.querySelector('#sceneList .scene[data-id="' + scene.data.id + '"]');
     el.addEventListener('click', function() {
-	  window.alert("added EL for " + scene);
       switchScene(scene);
       // On mobile, hide scene list after selecting a scene.
       if (document.body.classList.contains('mobile')) {
         hideSceneList();
-      }
-	if (scene.data.name === "room 2 data js") {
-		var el = document.querySelector('#r2');
-		el.addEventListener('click', function() {
-			switchScene(scene);
-		}
-	}
+      };
+	});
     });
-  });
+  
 
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
