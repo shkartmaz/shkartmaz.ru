@@ -15,7 +15,7 @@
  */
 'use strict';
  function updateFloorPlan(){
-    window.alert("fp!")
+    console.log("fp!")
   }
 
 (function() {
@@ -164,8 +164,14 @@
 	});
     });
   
+  // set handler for switching scenes via floor plan
   var room = document.querySelector('#r2');
-  room.addEventListener('click', switchScene(findSceneById('1-pano_20250924_111942_0')))
+  room.addEventListener('click', function(){
+	  switchScene(findSceneById('1-pano_20250924_111942_0'));
+	  console.log('clicked')
+  });
+
+
 
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
