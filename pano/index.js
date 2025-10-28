@@ -172,7 +172,6 @@
   // });
 
 	document.addEventListener('click', function (event) {
-		if (!event.target.closest('#r2')) return;
 		console.log(event.target);
 	}, false);
 
