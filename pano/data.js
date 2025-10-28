@@ -69,7 +69,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Overlay",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
