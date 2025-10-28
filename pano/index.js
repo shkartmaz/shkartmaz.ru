@@ -165,7 +165,7 @@
     });
   
   var room = document.querySelector('#r2');
-  room.addEventListener('click', switchScene(findSceneById('r2')))
+  room.addEventListener('click', switchScene(findSceneById('1-pano_20250924_111942_0')))
 
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
