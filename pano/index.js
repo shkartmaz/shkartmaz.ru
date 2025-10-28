@@ -164,6 +164,8 @@
 	});
     });
   
+  var room = document.querySelector('#r2');
+  room.addEventListener('click', switchScene(findSceneById('r2')))
 
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
