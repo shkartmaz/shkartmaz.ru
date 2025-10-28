@@ -175,8 +175,8 @@
     startAutorotate();
     updateSceneName(scene);
     updateSceneList(scene);
-	//updateFloorPlan();
-	window.alert("Scene updated")
+	updateFloorPlan();
+	//window.alert("Scene updated")
   }
 
   function updateSceneName(scene) {

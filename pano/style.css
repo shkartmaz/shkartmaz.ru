@@ -64,6 +64,14 @@ a, a:hover, a:active, a:visited {
   width: 250px;
 }
 
+.mobile #floorPlan {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  height: 50px;
+  width: 50px;
+}
+
 /* If there is a fullscreen button the title bar must make space for it */
 body.fullscreen-enabled #titleBar {
   right: 80px;
