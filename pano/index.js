@@ -165,12 +165,16 @@
     });
   
   // set handler for switching scenes via floor plan
-  var room = document.querySelector('#r2');
-  room.addEventListener('click', function(){
-	  switchScene(findSceneById('1-pano_20250924_111942_0'));
-	  console.log('clicked')
-  });
+  // var room = document.querySelector('#r2');
+  // room.addEventListener('click', function(){
+	  // switchScene(findSceneById('1-pano_20250924_111942_0'));
+	  // console.log('clicked')
+  // });
 
+	document.addEventListener('click', function (event) {
+		if (!event.target.closest('#r2')) return;
+		console.log(event.target);
+	}, false);
 
 
   function sanitize(s) {
