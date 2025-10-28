@@ -1,7 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-pano_20250924_111942_0",
+      "id": "r1",
       "name": "room 1 data js",
       "levels": [
         {
@@ -29,13 +29,13 @@ var APP_DATA = {
           "yaw": 0.12979769623892778,
           "pitch": 0.27355712610508043,
           "rotation": 90,
-          "target": "1-pano_20250924_111942_0"
+          "target": "r2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-pano_20250924_111942_0",
+      "id": "r2",
       "name": "room 2 data js",
       "levels": [
         {
@@ -63,7 +63,7 @@ var APP_DATA = {
           "yaw": -2.9616369963651383,
           "pitch": 0.47572902931307404,
           "rotation": 180,
-          "target": "0-pano_20250924_111942_0"
+          "target": "r1"
         }
       ],
       "infoHotspots": []
